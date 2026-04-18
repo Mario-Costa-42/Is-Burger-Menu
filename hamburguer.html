@@ -13,19 +13,19 @@
     <img src="./assets/arrow_back.svg" alt="Início" id="home" />
   </a>
 
-  <h1 id="MilkshakeTitle">Hambúrgueres na Brasa</h1>
+  <h1 id="MilkshakeTitle">Hambúrgueres</h1>
 
   <div class="container">
     <h2>Escolha seu hambúrguer</h2>
 
-    <!-- BRASA RAIZ -->
+    <!-- CLÁSSICO SIMPLES -->
     <label class="checkbox-btn">
       <input type="checkbox" />
       <div class="label-content">
-        <span>Brasa Raiz</span>
+        <span>Clássico Simples</span>
         <p class="description">
-          Pão selado na manteiga, hambúrguer de carne 180g assado na brasa,
-          com queijo muçarela e uma deliciosa maionese de alho.
+          Pão brioche, hambúrguer bovino 120g, queijo muçarela, alface,
+          tomate e molho especial da casa.
         </p>
 
         <div class="quantity-control">
@@ -34,20 +34,38 @@
           <button type="button" onclick="changeQuantity(this, 1)">➕</button>
         </div>
 
-        <span class="price">R$ 25,00</span>
+        <span class="price">R$ 18,00</span>
       </div>
     </label>
 
-
-    <!-- BRASA VERDE -->
+    <!-- CHEESEBURGER DUPLO -->
     <label class="checkbox-btn">
       <input type="checkbox" />
       <div class="label-content">
-        <span>Brasa Verde</span>
+        <span>Cheeseburger Duplo</span>
         <p class="description">
-          Pão selado na manteiga, hambúrguer de carne 180g assado na brasa,
-          queijo muçarela, uma deliciosa maionese verde, alface americana crocante,
-          tomate, rodelas de cebola roxa e picles.
+          Pão brioche, dois hambúrgueres 100g, cheddar duplo,
+          picles e molho especial.
+        </p>
+
+        <div class="quantity-control">
+          <button type="button" onclick="changeQuantity(this, -1)">➖</button>
+          <span>0</span>
+          <button type="button" onclick="changeQuantity(this, 1)">➕</button>
+        </div>
+
+        <span class="price">R$ 24,00</span>
+      </div>
+    </label>
+
+    <!-- BACON SUPREME -->
+    <label class="checkbox-btn">
+      <input type="checkbox" />
+      <div class="label-content">
+        <span>Bacon Supreme</span>
+        <p class="description">
+          Pão brioche, hambúrguer 150g, queijo cheddar,
+          bacon crocante e cebola caramelizada.
         </p>
 
         <div class="quantity-control">
@@ -60,15 +78,34 @@
       </div>
     </label>
 
-
-    <!-- BRASA CREMOSO -->
+    <!-- CHICKEN CRISPY -->
     <label class="checkbox-btn">
       <input type="checkbox" />
       <div class="label-content">
-        <span>Brasa Cremoso</span>
+        <span>Chicken Crispy</span>
         <p class="description">
-          Pão selado na manteiga, hambúrguer de carne 180g assado na brasa,
-          generosa camada de cheddar cremoso catupiry e cebola caramelizada.
+          Pão brioche, filé de frango empanado, alface,
+          tomate e maionese temperada.
+        </p>
+
+        <div class="quantity-control">
+          <button type="button" onclick="changeQuantity(this, -1)">➖</button>
+          <span>0</span>
+          <button type="button" onclick="changeQuantity(this, 1)">➕</button>
+        </div>
+
+        <span class="price">R$ 20,00</span>
+      </div>
+    </label>
+
+    <!-- BBQ BURGER -->
+    <label class="checkbox-btn">
+      <input type="checkbox" />
+      <div class="label-content">
+        <span>BBQ Burger</span>
+        <p class="description">
+          Pão brioche, hambúrguer 150g, queijo prato,
+          bacon, onion rings e molho barbecue.
         </p>
 
         <div class="quantity-control">
@@ -81,16 +118,14 @@
       </div>
     </label>
 
-
-    <!-- BRASA CROCANTE -->
+    <!-- VEGGIE BURGER -->
     <label class="checkbox-btn">
       <input type="checkbox" />
       <div class="label-content">
-        <span>Brasa Crocante</span>
+        <span>Veggie Burger</span>
         <p class="description">
-          Pão selado na manteiga, hambúrguer de carne 180g assado na brasa,
-          queijo muçarela, maionese de alho e anéis de cebola empanados
-          e crocantes.
+          Pão integral, hambúrguer de grão-de-bico,
+          alface, tomate, cenoura ralada e molho vegano.
         </p>
 
         <div class="quantity-control">
@@ -99,19 +134,18 @@
           <button type="button" onclick="changeQuantity(this, 1)">➕</button>
         </div>
 
-        <span class="price">R$ 28,00</span>
+        <span class="price">R$ 22,00</span>
       </div>
     </label>
 
-
-    <!-- BRASA VARGEM -->
+    <!-- EGG BACON BURGER -->
     <label class="checkbox-btn">
       <input type="checkbox" />
       <div class="label-content">
-        <span>Brasa Vargem</span>
+        <span>Egg Bacon Burger</span>
         <p class="description">
-          Pão selado na manteiga, hambúrguer de carne 180g assado na brasa,
-          queijo muçarela, maionese de alho, fatias de bacon e cebola roxa.
+          Pão brioche, hambúrguer 150g, queijo cheddar,
+          bacon crocante e ovo frito.
         </p>
 
         <div class="quantity-control">
@@ -120,18 +154,18 @@
           <button type="button" onclick="changeQuantity(this, 1)">➕</button>
         </div>
 
-        <span class="price">R$ 29,00</span>
+        <span class="price">R$ 27,00</span>
       </div>
     </label>
 
-    <!-- BRASA GALPÃO -->
+    <!-- MONSTER BURGER -->
     <label class="checkbox-btn">
       <input type="checkbox" />
       <div class="label-content">
-        <span>Brasa Galpão</span>
+        <span>Monster Burger</span>
         <p class="description">
-          Pão selado na manteiga, hambúrguer de carne 180g assado na brasa,
-          queijo muçarela, maionese de alho, rodelas de calabresa e cebola roxa.
+          Pão brioche, dois hambúrgueres 150g, cheddar duplo,
+          bacon, cebola caramelizada e molho especial.
         </p>
 
         <div class="quantity-control">
@@ -140,52 +174,9 @@
           <button type="button" onclick="changeQuantity(this, 1)">➕</button>
         </div>
 
-        <span class="price">R$ 29,00</span>
+        <span class="price">R$ 32,00</span>
       </div>
     </label>
-    
-    <!--I's Crispy -->
-    <label class="checkbox-btn">
-      <input type="checkbox" />
-      <div class="label-content">
-        <span>Crispy</span>
-        <p class="description">
-          Pão selado na manteiga, peito de frango empanado e frito,
-          maionese, alface, tomate e cebola roxa.
-        </p>
-
-        <div class="quantity-control">
-          <button type="button" onclick="changeQuantity(this, -1)">➖</button>
-          <span>0</span>
-          <button type="button" onclick="changeQuantity(this, 1)">➕</button>
-        </div>
-
-        <span class="price">R$ 30,00</span>
-      </div>
-    </label>
-
-
-    <!-- I'S ROCK -->
-    <label class="checkbox-btn">
-      <input type="checkbox" />
-      <div class="label-content">
-        <span>Rock</span>
-        <p class="description">
-          Pão selado na manteiga, 100g de catupiry original empanado e frito,
-          hambúrguer de carne 180g assado na brasa, maionese de alho,
-          geleia de pimenta agridoce, alface e tomate.
-        </p>
-
-        <div class="quantity-control">
-          <button type="button" onclick="changeQuantity(this, -1)">➖</button>
-          <span>0</span>
-          <button type="button" onclick="changeQuantity(this, 1)">➕</button>
-        </div>
-
-        <span class="price">R$ 37,00</span>
-      </div>
-    </label>
-
 
     <button class="btn-carrinho" onclick="adicionarCarrinho()">
       🛒 Adicionar ao Carrinho

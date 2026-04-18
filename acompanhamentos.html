@@ -14,50 +14,102 @@
   </a>
 
   <div class="container">
-    <h1 class="section-title">Acompanhamentos</h1>
+  <h1 class="section-title">Acompanhamentos</h1>
 
-    <p class="intro">
-      Aqui na BURGER, a gente leva a sua fome a sério.
-      Por isso, todos os nossos hambúrgueres acompanham, como cortesia da casa,
-      uma porção caprichada de batata frita crocante, feita na hora.
-    </p>
+  <div class="free-item">
+    <span class="icon">🍟</span>
+    <span class="text">Uma porção de batata frita por nossa conta</span>
+  </div>
 
-    <div class="free-item">
-      <span class="icon">🍟</span>
-      <span class="text">Uma porção de batata frita por nossa conta</span>
-    </div>
+  <div class="items">
 
-    <div class="items">
-      <label class="item">
-        <div class="item-info">
-          <span class="item-name">Porção extra de 120g</span>
-          <span class="item-price">R$ 6,00</span>
-        </div>
+    <!-- BATATA EXTRA -->
+    <label class="item">
+      <div class="item-info">
+        <span class="item-name">Porção extra de 120g</span>
+        <span class="item-price">R$ 6,00</span>
+      </div>
 
-        <div class="quantity-control">
-          <button type="button" onclick="changeQuantity(this, -1)">➖</button>
-          <span>0</span>
-          <button type="button" onclick="changeQuantity(this, 1)">➕</button>
-        </div>
-      </label>
+      <div class="quantity-control">
+        <button type="button" onclick="changeQuantity(this, -1)">➖</button>
+        <span>0</span>
+        <button type="button" onclick="changeQuantity(this, 1)">➕</button>
+      </div>
+    </label>
 
-      <label class="item">
-        <div class="item-info">
-          <span class="item-name">Potinho de molho da casa</span>
-          <span class="item-price">R$ 3,00</span>
-        </div>
+    <!-- MOLHOS -->
+    <label class="item">
+      <div class="item-info">
+        <span class="item-name">Potinho de molho da casa</span>
+        <span class="item-price">R$ 3,00</span>
+      </div>
 
-        <span class="item-desc">
-          Maionese de alho ou maionese verde
-        </span>
+      <span class="item-desc">
+        Maionese de alho ou maionese verde
+      </span>
 
-        <div class="quantity-control">
-          <button type="button" onclick="changeQuantity(this, -1)">➖</button>
-          <span>0</span>
-          <button type="button" onclick="changeQuantity(this, 1)">➕</button>
-        </div>
-      </label>
-    </div>
+      <div class="quantity-control">
+        <button type="button" onclick="changeQuantity(this, -1)">➖</button>
+        <span>0</span>
+        <button type="button" onclick="changeQuantity(this, 1)">➕</button>
+      </div>
+    </label>
+
+    <!-- ONION RINGS -->
+    <label class="item">
+      <div class="item-info">
+        <span class="item-name">Onion Rings </span>
+        <span class="item-price">R$ 8,00</span>
+      </div>
+
+      <span class="item-desc">
+        Anéis de cebola empanados e crocantes
+      </span>
+
+      <div class="quantity-control">
+        <button type="button" onclick="changeQuantity(this, -1)">➖</button>
+        <span>0</span>
+        <button type="button" onclick="changeQuantity(this, 1)">➕</button>
+      </div>
+    </label>
+
+    <!-- NUGGETS -->
+    <label class="item">
+      <div class="item-info">
+        <span class="item-name">Nuggets de frango </span>
+        <span class="item-price">R$ 10,00</span>
+      </div>
+
+      <span class="item-desc">
+        Crocantes por fora e macios por dentro
+      </span>
+
+      <div class="quantity-control">
+        <button type="button" onclick="changeQuantity(this, -1)">➖</button>
+        <span>0</span>
+        <button type="button" onclick="changeQuantity(this, 1)">➕</button>
+      </div>
+    </label>
+
+    <!-- BATATA COM CHEDDAR E BACON -->
+    <label class="item">
+      <div class="item-info">
+        <span class="item-name">Batata com cheddar e bacon</span>
+        <span class="item-price">R$ 14,00</span>
+      </div>
+
+      <span class="item-desc">
+        Porção de batata frita com cheddar cremoso e bacon crocante
+      </span>
+
+      <div class="quantity-control">
+        <button type="button" onclick="changeQuantity(this, -1)">➖</button>
+        <span>0</span>
+        <button type="button" onclick="changeQuantity(this, 1)">➕</button>
+      </div>
+    </label>
+
+  </div>
 
     <button class="btn-carrinho">🛒 Adicionar ao Carrinho</button>
   </div>
